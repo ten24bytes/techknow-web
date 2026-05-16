@@ -1744,12 +1744,15 @@ section.testimonials {
 
 .testimonial-video-wrap {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 177.78%; /* 9:16 portrait */
     height: 0;
     overflow: hidden;
     border-radius: 10px;
     border: 2px solid rgba(245, 164, 37, 0.4);
     margin-bottom: 30px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testimonial-video-wrap iframe {
