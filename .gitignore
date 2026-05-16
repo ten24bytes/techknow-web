@@ -48,3 +48,11 @@ yarn.lock
 # Backup Files
 *.bak
 *.backup
+
+# Claude Code local settings (machine-specific permissions)
+.claude/settings.local.json
+
+# Playwright MCP artifacts
+.playwright-mcp/
+/*.png
+/*.jpeg
